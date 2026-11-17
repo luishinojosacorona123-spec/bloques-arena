@@ -1,0 +1,45 @@
+{
+  "scenario": "ec2-t3.small",
+  "levels": [
+    {
+      "target": 2,
+      "ccu": 2,
+      "connect_seconds": 0.232,
+      "ccu_start": 2,
+      "window_seconds": 3.379,
+      "samples": 24,
+      "failures": 0,
+      "failed_connections": 0,
+      "rtt_p95_ms": 65.6
+    },
+    {
+      "target": 10,
+      "ccu": 10,
+      "connect_seconds": 0.216,
+      "ccu_start": 10,
+      "window_seconds": 3.784,
+      "samples": 120,
+      "failures": 0,
+      "failed_connections": 0,
+      "rtt_p95_ms": 65.56
+    },
+    {
+      "target": 25,
+      "ccu": 25,
+      "connect_seconds": 0.383,
+      "ccu_start": 25,
+      "window_seconds": 5.026,
+      "samples": 300,
+      "failures": 0,
+      "failed_connections": 0,
+      "rtt_p95_ms": 151.08
+    }
+  ],
+  "instance_type": "t3.small",
+  "region": "us-east-2",
+  "instance_id": "i-0b50880e5a0a6b526",
+  "seconds_since_launch_response": 120.2,
+  "estimated_usd_per_hour": 0.026676712328767123,
+  "highest_passing_ccu": 10,
+  "estimated_usd_per_player_hour": 0.002667671232876712
+}
