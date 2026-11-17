@@ -1,0 +1,42 @@
+apiVersion: agones.dev/v1
+kind: Fleet
+metadata:
+  name: bloques-fleet
+  namespace: default
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 1
+  template:
+    metadata:
+      labels: {app: bloques-server}
+    spec:
+      ports:
+        - name: game
+          containerPort: 7654
+          protocol: TCP
+      health: {initialDelaySeconds: 30, periodSeconds: 5, failureThreshold: 3}
+      template:
+        metadata:
+          labels: {app: bloques-server}
+        spec:
+          serviceAccountName: bloques-game
+          containers:
+            - name: bloques
+              image: us-central1-docker.pkg.dev/REPLACE_PROJECT/bloques/server:REPLACE_SHA
+              env:
+                - {name: AGONES_ENABLED, value: "1"}
+                - {name: MAX_VIEWERS, value: "500"}
+              ports:
+                - {name: http, containerPort: 7654}
+              resources:
+                requests: {cpu: "100m", memory: "128Mi"}
+                limits: {cpu: "500m", memory: "256Mi"}
+              securityContext:
+                runAsNonRoot: true
+                runAsUser: 1000
+                allowPrivilegeEscalation: false
+                capabilities: {drop: [ALL]}

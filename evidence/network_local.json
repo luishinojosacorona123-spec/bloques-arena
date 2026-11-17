@@ -1,0 +1,39 @@
+{
+  "environment": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.14",
+  "scope": "Local, un proceso de servidor y generador en la misma máquina; RTT de eco, no latencia de video",
+  "rows": [
+    {
+      "players": 2,
+      "viewers": 0,
+      "samples": 30,
+      "rtt_p50_ms": 0.9024999453686178,
+      "rtt_p95_ms": 1.2968999799340963,
+      "rtt_p99_ms": 1.4312000712379813
+    },
+    {
+      "players": 2,
+      "viewers": 10,
+      "samples": 30,
+      "rtt_p50_ms": 1.9800500012934208,
+      "rtt_p95_ms": 2.8612000169232488,
+      "rtt_p99_ms": 12.218700023368001
+    },
+    {
+      "players": 2,
+      "viewers": 100,
+      "samples": 30,
+      "rtt_p50_ms": 8.959099999628961,
+      "rtt_p95_ms": 19.38840001821518,
+      "rtt_p99_ms": 20.864799967966974
+    },
+    {
+      "players": 2,
+      "viewers": 500,
+      "samples": 30,
+      "rtt_p50_ms": 49.35734998434782,
+      "rtt_p95_ms": 102.52449999097735,
+      "rtt_p99_ms": 153.41649996116757
+    }
+  ]
+}

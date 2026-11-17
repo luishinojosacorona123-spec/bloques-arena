@@ -1,0 +1,5 @@
+NAME                        STATE      ADDRESS      PORT   NODE                         AGE
+bloques-fleet-m7cww-qcvdl   Shutdown   172.18.0.2   7158   bloques-eval-control-plane   42s
+bloques-fleet-zf5qx-7cq6c   Ready      172.18.0.2   7671   bloques-eval-control-plane   54s
+bloques-fleet-zf5qx-jr5mf   Ready      172.18.0.2   7450   bloques-eval-control-plane   54s
+bloques-fleet-zf5qx-qnhh5   Ready      172.18.0.2   7271   bloques-eval-control-plane   35s

@@ -1,0 +1,6 @@
+agones_gameservers_count{fleet_name="bloques-fleet",namespace="default",type="PortAllocation"} 0
+agones_gameservers_count{fleet_name="bloques-fleet",namespace="default",type="Ready"} 3
+agones_gameservers_count{fleet_name="bloques-fleet",namespace="default",type="Scheduled"} 0
+agones_gameservers_count{fleet_name="bloques-fleet",namespace="default",type="Shutdown"} 0
+agones_gameservers_count{fleet_name="bloques-fleet",namespace="default",type="Starting"} 0
+agones_gameservers_count{fleet_name="bloques-fleet",namespace="default",type="Unhealthy"} 0

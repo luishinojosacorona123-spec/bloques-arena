@@ -1,0 +1,11 @@
+apiVersion: autoscaling.agones.dev/v1
+kind: FleetAutoscaler
+metadata: {name: bloques-buffer, namespace: default}
+spec:
+  fleetName: bloques-fleet
+  policy:
+    type: Buffer
+    buffer:
+      bufferSize: 20%
+      minReplicas: 3
+      maxReplicas: 650

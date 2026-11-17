@@ -1,0 +1,69 @@
+{
+  "scope": "Un proceso, mismo equipo, 500 salas lógicas. Sin escalado de nodos.",
+  "scenarios": [
+    {
+      "scenario": "rampa",
+      "levels": [
+        {
+          "target": 100,
+          "ccu": 100,
+          "connect_seconds": 3.505,
+          "samples": 400,
+          "failures": 0,
+          "failed_connections": 0,
+          "rtt_p95_ms": 587.98
+        },
+        {
+          "target": 300,
+          "ccu": 300,
+          "connect_seconds": 7.0,
+          "samples": 1200,
+          "failures": 0,
+          "failed_connections": 0,
+          "rtt_p95_ms": 1599.46
+        },
+        {
+          "target": 600,
+          "ccu": 600,
+          "connect_seconds": 18.902,
+          "samples": 2400,
+          "failures": 0,
+          "failed_connections": 0,
+          "rtt_p95_ms": 3514.47
+        },
+        {
+          "target": 1000,
+          "ccu": 294,
+          "connect_seconds": 39.252,
+          "samples": 1176,
+          "failures": 2824,
+          "failed_connections": 0,
+          "rtt_p95_ms": 1752.1
+        }
+      ]
+    },
+    {
+      "scenario": "pico",
+      "levels": [
+        {
+          "target": 100,
+          "ccu": 100,
+          "connect_seconds": 2.147,
+          "samples": 400,
+          "failures": 0,
+          "failed_connections": 0,
+          "rtt_p95_ms": 596.46
+        },
+        {
+          "target": 1000,
+          "ccu": 612,
+          "connect_seconds": 30.96,
+          "samples": 2448,
+          "failures": 1552,
+          "failed_connections": 0,
+          "rtt_p95_ms": 4280.72
+        }
+      ]
+    }
+  ]
+}

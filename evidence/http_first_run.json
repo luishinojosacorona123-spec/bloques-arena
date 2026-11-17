@@ -1,0 +1,29 @@
+{
+  "scores": {
+    "scope": "500 clientes concurrentes, 80% GET y 20% POST, Docker con SQLite",
+    "requests": 2500,
+    "errors": 1,
+    "p95_ms": 13508.56,
+    "p99_ms": 14930.92,
+    "payload_bytes": 1554744
+  },
+  "hls": {
+    "scope": "500 clientes HTTP HLS locales, clip sintético de 6 s, sin reproductor ni CDN",
+    "playlists": {
+      "requests": 500,
+      "errors": 344,
+      "p95_ms": 8654.0,
+      "p99_ms": 10493.82,
+      "payload_bytes": 30732
+    },
+    "segments": {
+      "requests": 468,
+      "errors": 0,
+      "p95_ms": 2345.06,
+      "p99_ms": 2434.11,
+      "payload_bytes": 119276976
+    },
+    "extrapolated_20000_gb_per_hour_at_measured_clip_rate": 2862.65,
+    "extrapolated_20000_gb_per_hour_at_6000_kbps": 54000
+  }
+}

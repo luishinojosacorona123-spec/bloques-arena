@@ -1,0 +1,43 @@
+# HELP bloques_players_connected Jugadores humanos
+# TYPE bloques_players_connected gauge
+bloques_players_connected 0.0
+# HELP bloques_viewers_connected Espectadores
+# TYPE bloques_viewers_connected gauge
+bloques_viewers_connected 0.0
+# HELP bloques_tick_seconds Trabajo del tick
+# TYPE bloques_tick_seconds histogram
+bloques_tick_seconds_bucket{le="0.001"} 5137.0
+bloques_tick_seconds_bucket{le="0.005"} 5151.0
+bloques_tick_seconds_bucket{le="0.01"} 5160.0
+bloques_tick_seconds_bucket{le="0.025"} 5163.0
+bloques_tick_seconds_bucket{le="0.05"} 5163.0
+bloques_tick_seconds_bucket{le="0.1"} 5163.0
+bloques_tick_seconds_bucket{le="+Inf"} 5163.0
+bloques_tick_seconds_count 5163.0
+bloques_tick_seconds_sum 0.6245198739561602
+# HELP bloques_tick_seconds_created Trabajo del tick
+# TYPE bloques_tick_seconds_created gauge
+bloques_tick_seconds_created 1.7944582659301202e+09
+# HELP bloques_loop_lag_seconds Retraso del bucle
+# TYPE bloques_loop_lag_seconds histogram
+bloques_loop_lag_seconds_bucket{le="0.005"} 4763.0
+bloques_loop_lag_seconds_bucket{le="0.01"} 5002.0
+bloques_loop_lag_seconds_bucket{le="0.025"} 5129.0
+bloques_loop_lag_seconds_bucket{le="0.05"} 5153.0
+bloques_loop_lag_seconds_bucket{le="0.075"} 5157.0
+bloques_loop_lag_seconds_bucket{le="0.1"} 5157.0
+bloques_loop_lag_seconds_bucket{le="0.25"} 5159.0
+bloques_loop_lag_seconds_bucket{le="0.5"} 5160.0
+bloques_loop_lag_seconds_bucket{le="0.75"} 5160.0
+bloques_loop_lag_seconds_bucket{le="1.0"} 5160.0
+bloques_loop_lag_seconds_bucket{le="2.5"} 5162.0
+bloques_loop_lag_seconds_bucket{le="5.0"} 5162.0
+bloques_loop_lag_seconds_bucket{le="7.5"} 5162.0
+bloques_loop_lag_seconds_bucket{le="10.0"} 5162.0
+bloques_loop_lag_seconds_bucket{le="+Inf"} 5162.0
+bloques_loop_lag_seconds_count 5162.0
+bloques_loop_lag_seconds_sum 11.336553845000513
+# HELP bloques_loop_lag_seconds_created Retraso del bucle
+# TYPE bloques_loop_lag_seconds_created gauge
+bloques_loop_lag_seconds_created 1.7944582659302983e+09
+

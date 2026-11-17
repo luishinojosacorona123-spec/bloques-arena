@@ -1,0 +1,14 @@
+........                                                                 [100%]
+============================== warnings summary ===============================
+test_network.py::test_two_players_spectator_and_server_validation
+  C:\Users\luish\Documents\Codex\2026-11-09\s11-u3-ac-08\outputs\BloquesArena\server\server.py:125: NotAppKeyWarning: It is recommended to use web.AppKey instances for keys.
+  https://docs.aiohttp.org/en/stable/web_advanced.html#application-s-config
+    arena=Arena(); app=web.Application(); app['arena']=arena
+
+test_network.py::test_two_players_spectator_and_server_validation
+  C:\Users\luish\Documents\Codex\2026-11-09\s11-u3-ac-08\outputs\BloquesArena\server\server.py:131: NotAppKeyWarning: It is recommended to use web.AppKey instances for keys.
+  https://docs.aiohttp.org/en/stable/web_advanced.html#application-s-config
+    async def start(a): a['task']=asyncio.create_task(arena.loop())
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+8 passed, 2 warnings in 7.46s

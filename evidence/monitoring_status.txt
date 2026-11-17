@@ -1,0 +1,7 @@
+NAME                                                     READY   STATUS    RESTARTS        AGE
+alertmanager-observability-kube-prometh-alertmanager-0   2/2     Running   0               14m
+observability-grafana-7c4f7c6956-r9jbg                   3/3     Running   2 (6m9s ago)    15m
+observability-kube-prometh-operator-7c668cfb65-52pfg     1/1     Running   2 (5m16s ago)   15m
+observability-kube-state-metrics-56c949b779-bhvbd        1/1     Running   2 (5m21s ago)   15m
+observability-prometheus-node-exporter-mjlnl             1/1     Running   1 (6m9s ago)    15m
+prometheus-observability-kube-prometh-prometheus-0       2/2     Running   0               14m

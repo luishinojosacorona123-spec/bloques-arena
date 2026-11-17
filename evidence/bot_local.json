@@ -1,0 +1,10 @@
+{
+  "kind": "medición local, bot heurístico; no PPO",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "samples": 100,
+  "mean_ms": 7.453586998162791,
+  "p95_ms": 12.199300108477473,
+  "decisions_per_second": 134.16359133481458,
+  "vcpu_2000_bots_10hz_margin30": 194
+}

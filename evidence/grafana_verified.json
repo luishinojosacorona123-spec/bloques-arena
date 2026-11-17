@@ -1,0 +1,13 @@
+{
+  "Title": "Bloques Arena",
+  "Panels": [
+    "CCU humanos",
+    "CCV estado",
+    "Tick p99 (s)",
+    "Lag p99 (s)",
+    "Nodos Ready",
+    "GameServers por estado",
+    "Pods de juego"
+  ],
+  "Folder": "General"
+}

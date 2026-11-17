@@ -1,0 +1,11 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PodMonitor
+metadata:
+  name: bloques
+  namespace: default
+  labels: {release: observability}
+spec:
+  selector:
+    matchLabels: {app: bloques-server}
+  podMetricsEndpoints:
+    - {port: http, path: /metrics, interval: 10s}

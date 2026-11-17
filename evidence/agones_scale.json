@@ -1,0 +1,108 @@
+{
+  "scope": "Agones en kind, un nodo sin autoescalado de nodos",
+  "seconds_until_new_ready_after_allocation_batch": 29.78,
+  "samples": [
+    {
+      "seconds": 1.08,
+      "ready": 2,
+      "allocated": 1,
+      "total": 3
+    },
+    {
+      "seconds": 8.66,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 10.83,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 12.62,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 14.73,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 16.7,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 18.5,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 20.44,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 22.17,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 24.09,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 26.08,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 28.08,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 30.47,
+      "ready": 0,
+      "allocated": 3,
+      "total": 3
+    },
+    {
+      "seconds": 32.61,
+      "ready": 0,
+      "allocated": 3,
+      "total": 4
+    },
+    {
+      "seconds": 34.66,
+      "ready": 0,
+      "allocated": 3,
+      "total": 4
+    },
+    {
+      "seconds": 36.52,
+      "ready": 0,
+      "allocated": 3,
+      "total": 4
+    },
+    {
+      "seconds": 38.44,
+      "ready": 1,
+      "allocated": 3,
+      "total": 4
+    }
+  ]
+}

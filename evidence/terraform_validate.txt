@@ -1,0 +1,6 @@
+Validando outputs/BloquesArena/infra
+Success! The configuration is valid.
+
+Validando outputs/BloquesArena/infra/agones
+Success! The configuration is valid.
+

@@ -1,0 +1,7 @@
+{
+  "device": "cpu",
+  "training_s": 686.1934292000951,
+  "inference_mean_ms": 1.455322199035436,
+  "decisions_s": 687.1330628109596,
+  "vcpu_2000_10hz": 38
+}

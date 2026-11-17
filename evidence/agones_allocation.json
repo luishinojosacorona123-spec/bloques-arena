@@ -1,0 +1,63 @@
+{
+    "apiVersion": "allocation.agones.dev/v1",
+    "kind": "GameServerAllocation",
+    "metadata": {
+        "creationTimestamp": "2026-11-12T04:54:46Z",
+        "name": "bloques-fleet-zf5qx-7cq6c",
+        "namespace": "default"
+    },
+    "spec": {
+        "metadata": {},
+        "multiClusterSetting": {
+            "policySelector": {}
+        },
+        "required": {},
+        "scheduling": "Packed",
+        "selectors": [
+            {
+                "gameServerState": "Ready",
+                "matchLabels": {
+                    "agones.dev/fleet": "bloques-fleet"
+                }
+            }
+        ]
+    },
+    "status": {
+        "address": "172.18.0.2",
+        "addresses": [
+            {
+                "address": "172.18.0.2",
+                "type": "InternalIP"
+            },
+            {
+                "address": "bloques-eval-control-plane",
+                "type": "Hostname"
+            },
+            {
+                "address": "10.244.0.27",
+                "type": "PodIP"
+            }
+        ],
+        "gameServerName": "bloques-fleet-zf5qx-7cq6c",
+        "metadata": {
+            "annotations": {
+                "agones.dev/last-allocated": "2026-11-12T04:54:47.077257069Z",
+                "agones.dev/sdk-version": "1.62.0"
+            },
+            "labels": {
+                "agones.dev/fleet": "bloques-fleet",
+                "agones.dev/gameserverset": "bloques-fleet-zf5qx",
+                "app": "bloques-server"
+            }
+        },
+        "nodeName": "bloques-eval-control-plane",
+        "ports": [
+            {
+                "name": "game",
+                "port": 7671
+            }
+        ],
+        "source": "local",
+        "state": "Allocated"
+    }
+}

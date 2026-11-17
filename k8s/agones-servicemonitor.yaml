@@ -1,0 +1,15 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: bloques-agones
+  namespace: monitoring
+  labels: {release: observability}
+spec:
+  namespaceSelector:
+    matchNames: [agones-system]
+  selector:
+    matchLabels:
+      agones.dev/role: controller
+      app: agones
+  endpoints:
+    - {port: metrics, path: /metrics, interval: 10s}
